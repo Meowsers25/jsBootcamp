@@ -1,6 +1,6 @@
 let petName = 'Luna'
 // let petName = 'Beatrice'
-//cant define a var more than once; instead reassign 
+//cant define a variable more than once; instead reassign 
 petName = 'Beatrice'
 console.log(petName)
 
