@@ -13,6 +13,16 @@ todos.push('Get flat tire fixed')
 todos.shift()
 
 console.log(`You have ${todos.length} todos`)
-console.log(todos)
+//console.log(todos)
 // console.log(`Your first todo: ${todos[0]}`)
 // console.log(`Your next to last todo: ${todos[todos.length - 2]}`)
+
+//1. first item
+//2. second item
+// use .forEach
+
+todos.forEach(function(todo, index) {
+  let num = index + 1
+  console.log(`${num}. ${todo}`)
+
+})
