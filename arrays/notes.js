@@ -19,3 +19,13 @@ notes.forEach(function (note, index) {
 
 console.log(notes.length)
 console.log(notes)
+
+//counting......
+//initializer, condition, final expression
+for (let count = 0; count <= 2; count++) {
+  console.log(count)
+}
+
+for (let count = 0; count < notes.length; count++) {
+  console.log(notes[count])
+}
